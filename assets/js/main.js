@@ -10,10 +10,10 @@ $('.edit').click(function(){
     $.cookie("blog_id", parent_txt_id);
     window.location.href = "edit.php";
 });
-if($.cookie("blog") != ""){
+if($.cookie("blog_txt") != ""){
     setTimeout(function(){
         if (window.location.pathname == "/blogpage/edit.php"){
-            $('#edit-blog')[0].innerHTML = $.cookie("blog");
+            $('#edit-blog')[0].innerHTML = $.cookie("blog_txt");
         }
     }, 1500);
 }

@@ -71,10 +71,21 @@
             margin: 5px 0;
             display: block;
         }
+        .logo{
+            float: left;
+            margin-left: 15px;
+            font-size: 22px;
+            color: aquamarine;
+            cursor: crosshair;
+        }
+        .logo:hover{
+            color: #ecf0f1;
+            font-size: 24px;
+        }
     </style>
 </head>
 <body>
-<div class="welcome-bar">Welcome, <span class="name">Teğberk Demiröz</span>! <a class="exit"> exit ⟶</a></div>
+<div class="welcome-bar"><span class="logo">△ is real</span>Welcome, <span class="name">Teğberk Demiröz</span>! <a class="exit"> exit ⟶</a></div>
 <div class="blog">
     <h1>Write Blog!</h1>
     <div class="write-blog">

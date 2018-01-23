@@ -26,7 +26,7 @@
             margin: 10px auto;
             cursor: pointer;
             position: absolute;
-            bottom: 10px;
+            bottom: 350px;
             right: 593px;
         }
     </style>
