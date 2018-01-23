@@ -10,6 +10,5 @@
         <a href="register.php">REGISTER</a>
         <a href="login.php">LOGIN</a>
     </div>
-
 </body>
 </html>
