@@ -90,7 +90,7 @@
     <h1>Write Blog!</h1>
     <div class="write-blog">
         <form action="#" method="get">
-            <textarea name="text-blog" id="text-blog" cols="63" rows="11"></textarea>
+            <textarea name="text-blog" id="text-blog" cols="63" rows="11" required></textarea>
             <button>Share</button>
         </form>
     </div>

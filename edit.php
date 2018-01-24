@@ -34,7 +34,7 @@
 <body>
 <div class="container">
     <form action="home.php" method="get">
-        <textarea name="edit-blog" id="edit-blog" cols="63" rows="11"></textarea>
+        <textarea name="edit-blog" id="edit-blog" cols="63" rows="11" required></textarea>
         <button>OK</button>
     </form>
 </div>

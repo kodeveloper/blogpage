@@ -1,3 +1,4 @@
+<?php include("config/config.php"); ?>
 <html>
 <head>
     <title>Welcome to My Blog Page</title>

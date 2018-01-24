@@ -8,8 +8,8 @@
 <div class="container">
     <h1>Register</h1>
     <form action="home.php" method="post">
-        <input type="text" name="id" id="id" placeholder="Username">
-        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="email" name="id" id="id" placeholder="Username" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
         <input type="submit" value="Sign In">
     </form>
 </div>
