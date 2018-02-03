@@ -7,16 +7,17 @@
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/cookie.js"></script>
     <style>
-        .write-blog {
-            display: inline-block;
+        form {
+            display: block;
+            margin: 10px 0 0 30px;
         }
-
         textarea {
             font-size: 22px;
             padding: 10px;
             resize: none;
+            display: inherit;
         }
-        button {
+        button, input[type="reset"]{
             height: 50px;
             width: 130px;
             font-size: 16px;
@@ -26,15 +27,12 @@
             padding-left: 10px;
             margin: 10px auto;
             cursor: pointer;
-            position: absolute;
-            bottom: 350px;
-            right: 593px;
         }
     </style>
 </head>
 <body>
-<div class="container">
     <form action="" method="get">
+        <h1><?php echo $_GET["edit"]; ?>. blog editing</h1>
         <?php $blogid = $_GET["edit"];
         echo '<input type="hidden" name="hd-edit" value="'.$blogid.'">'; ?>
         <textarea name="edit-blog" id="edit-blog" cols="63" rows="11" required><?php
@@ -50,12 +48,10 @@
                         header("location: home.php");
 
                     }
-
-
             ?></textarea>
         <button>OK</button>
+        <input type="reset" style="background-color: red;" value="Return">
     </form>
-</div>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

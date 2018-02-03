@@ -1,7 +1,7 @@
 <?php include("config/connect.php") ?>
 <html>
 <head>
-    <title>Register Page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
