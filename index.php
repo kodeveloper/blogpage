@@ -1,4 +1,4 @@
-<?php include("config/config.php"); ?>
+<?php //include("config/config.php");javaanse jongens mild / golden virgina ?>
 <html>
 <head>
     <title>Welcome to My Blog Page</title>

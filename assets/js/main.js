@@ -1,6 +1,7 @@
 /**
  * Created by oguzhandemiroz on 22.01.2018.
  */
+/*
 console.log("Javascript is Loading...");
 $('.edit').click(function(){
     var parent_txt = $(this).parent().parent()[0].innerText.replace("EditDelete", "");
@@ -17,3 +18,4 @@ if($.cookie("blog_txt") != ""){
         }
     }, 1500);
 }
+*/
