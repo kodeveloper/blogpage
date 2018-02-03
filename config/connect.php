@@ -13,7 +13,7 @@ $dbPass = "";
 
 //pdo baglantisi saglama
 try{
-    $db = new PDO("mysql:host=127.0.0.1;dbname=blogPage;charset=utf8", "$userName", "$dbPass");
+    $db = new PDO("mysql:host=$host;dbname=$dbName;charset=utf8", $userName, $dbPass);
     $db->query("SET CHARACTER SET uft8");
 }
 catch (PDOException $e){

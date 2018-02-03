@@ -21,9 +21,6 @@ if($insert){
     //$last_id = $db->lastInsertId();
     header("location: login.php");
 }
-else{
-    echo "not ok";
-}
   /*  $query = $db->query("select * from Users ",PDO::FETCH_ASSOC);
             foreach($query as $say) {
                 echo $say["dene"];
